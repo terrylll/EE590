@@ -1,4 +1,16 @@
+Q1a detab SCORE:  1
+Q1b detab SCORE:  1
+Q1c detab SCORE:  1
+Q1d detab SCORE:  1
+Q2a reverse SCORE:  2
+Q2b reverse SCORE:  2
+Q2c reverse SCORE:  2
+Q2d reverse SCORE:  2
+Q3a fsm SCORE:  0
+Q3b fsm SCORE:  1
+Q3c fsm SCORE:  0
+Q3d fsm SCORE:  2
 
 ###########################
 
-TOTAL SCORE =  10 /24
+TOTAL SCORE =  15 /24
