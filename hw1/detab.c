@@ -18,9 +18,8 @@ int main ( int argc, char * argv[] ) {
     }
     else 
     {
-        do 
-        {
-            c = getc(file);
+       
+           while((c = fgetc(file)) != EOF){
             if (c == TAB)
             {
                 while (n < val)
@@ -37,11 +36,10 @@ int main ( int argc, char * argv[] ) {
             }
                  
         }
-        while (c !=EOF);
-        {
+       
             fclose(file);
        
-        }
+        
     }
   return 0;
 
