@@ -1,0 +1,152 @@
+
+
+######## QUESTION 1a detab #######
+INPUT : ./detab q1.txt 1
+OUTPUT:  this is question 1
+checking q 1
+
+ANSWER:  this is question 1
+checking q 1
+
+
+Q1a detab SCORE:  2
+
+
+######## QUESTION 1b detab #######
+INPUT : ./detab q1.txt 8
+OUTPUT:  this        is question 1
+checking        q 1
+
+ANSWER:  this        is question 1
+checking        q 1
+
+
+Q1b detab SCORE:  2
+
+
+######## QUESTION 1c detab #######
+INPUT : ./detab q1.txt 0
+OUTPUT:  thisis question 1
+checkingq 1
+
+ANSWER:  thisis question 1
+checkingq 1
+
+
+Q1c detab SCORE:  2
+
+
+######## QUESTION 1d detab #######
+INPUT : ./detab q1.txt 0
+OUTPUT:  hi  this is a test.
+  hi this   is also a  test.
+
+ANSWER:  hi  this is a test.
+   hi this   is also a  test.
+
+
+
+Q1d detab SCORE:  2
+
+
+######## QUESTION 2a reverse #######
+INPUT : ./reverse q2.txt
+OUTPUT:
+ÿ
+.tset	a osla si   siht ih  
+.tset a si siht	i
+ANSWER:
+
+
+.tset	a osla si   siht ih	
+.tset a si siht	ih
+Q2a reverse SCORE:  2
+
+
+######## QUESTION 2b reverse #######
+INPUT : ./reverse q2b.txt
+OUTPUT:
+ÿ
+,tema tis rolod muspi meroL .sraeb
+ 000,3 tuoba evah		
+ew dnalsi kaidok no ere
+ANSWER:
+
+,tema tis rolod muspi meroL .sraeb
+ 000,3 tuoba evah
+ew dnalsi kaidok no ereH
+Q2b reverse SCORE:  2
+
+
+######## QUESTION 2c reverse #######
+INPUT : ./reverse abc.csv
+OUTPUT:
+ÿ
+3,2,3
+3,1,3
+3,3,1
+2
+cb
+ANSWER:
+
+3,2,3
+3,1,3
+3,3,1
+2
+cba
+Q2c reverse SCORE:  2
+
+
+######## QUESTION 2d reverse #######
+INPUT : ./reverse shakespeare.txt
+OUTPUT:
+ÿ
+.'novA fo draB' eht dna ,teop lanoitan s'dnalgnE
+ dellac netfo si eH .tsitamard tnenime-erp s'dlrow eht dna
+ egaugnal hsilgnE eht ni retirw tsetaerg eht sa dedrager ylediw
+ ,rotca dna ,thgirwyalp ,teop hsilgnE na saw eraepsekahS mailli
+ANSWER:
+
+.'novA fo draB' eht dna ,teop lanoitan s'dnalgnE
+ dellac netfo si eH .tsitamard tnenime-erp s'dlrow eht dna
+ egaugnal hsilgnE eht ni retirw tsetaerg eht sa dedrager ylediw
+ ,rotca dna ,thgirwyalp ,teop hsilgnE na saw eraepsekahS mailliW
+Q2d reverse SCORE:  2
+
+
+######## QUESTION 3a fsm #######
+INPUT : ./fsm abc.csv abbbc
+OUTPUT:  File not found
+reject
+
+ANSWER:  accept
+Q3a fsm SCORE:  0
+
+
+######## QUESTION 3b fsm #######
+INPUT : ./fsm fsm.csv -0..6
+OUTPUT:  File not found
+reject
+
+ANSWER:  reject
+Q3b fsm SCORE:  2
+
+
+######## QUESTION 3c fsm #######
+INPUT : ./fsm hex.csv x003ab
+OUTPUT:  reject
+
+ANSWER:  accept
+Q3c fsm SCORE:  0
+
+
+######## QUESTION 3d fsm #######
+INPUT : ./fsm hex.csv 3xab
+OUTPUT:  reject
+
+ANSWER:  reject
+Q3d fsm SCORE:  2
+
+###########################
+
+TOTAL SCORE =  20 /24
