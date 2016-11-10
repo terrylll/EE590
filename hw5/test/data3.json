@@ -1,0 +1,6 @@
+{
+  "first": -1,
+  "second": 1,
+
+  "fourth": [ "normal", "json", "still", "works" ]
+}
