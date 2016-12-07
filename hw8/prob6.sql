@@ -1,0 +1,1 @@
+Select Album.AlbumId AS ALBUM_ID, Title AS ALBUM_TITLE,COUNT(*) AS NUMBER_SONGS,strftime('%H:%M:%S',CAST(SUM(Milliseconds)/1000/86400.0 AS DATETIME)-0.5) AS DURATION from Album INNER JOIN Track ON Album.AlbumId = Track.AlbumId GROUP BY Album.AlbumId;

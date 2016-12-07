@@ -1,0 +1,1 @@
+select Album.AlbumId AS ALBUM_ID,Album.Title AS ALBUM_TITLE , sum(Milliseconds) AS DURATION from Track INNER JOIN Album ON Album.AlbumId = Track.AlbumId GROUP BY Title HAVING SUM(Milliseconds) > 3600000 ORDER BY SUM(Milliseconds) DESC;

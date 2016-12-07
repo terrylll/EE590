@@ -1,0 +1,1 @@
+select Track.Name AS TRACK_NAME, Album.Title AS ALBUM_NAME, Artist.Name AS ARTIST_NAME from Track INNER JOIN Album ON Album.AlbumId = Track.AlbumId INNER JOIN Artist ON Artist.ArtistId = Album.ArtistId ORDER BY Milliseconds DESC LIMIT 1;

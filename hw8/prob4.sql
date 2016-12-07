@@ -1,0 +1,1 @@
+select Name AS TRACK_NAME, SUM(Quantity) AS AMOUNT_PURCHASED from InvoiceLine INNER JOIN Track ON Track.TrackId = InvoiceLine.TrackId GROUP BY InvoiceLine.TrackID ORDER BY SUM(Quantity) DESC LIMIT 10;

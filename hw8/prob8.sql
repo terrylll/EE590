@@ -1,0 +1,1 @@
+select Artist.Name AS ARTIST_NAME,round(SUM(Quantity*InvoiceLine.UnitPrice),2) AS TOTAL_MONEY from Artist INNER JOIN Album ON Album.ArtistId = Artist.ArtistId INNER JOIN Track ON Track.AlbumId = Album.AlbumId CROSS JOIN InvoiceLine ON InvoiceLine.TrackId = Track.TrackId GROUP BY Artist.ArtistId ORDER BY TOTAL_MONEY DESC LIMIT 10;

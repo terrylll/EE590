@@ -1,0 +1,1 @@
+select Customer.FirstName, Customer.LastName,sum(Total) AS TOTAL_SPENT_MONEY from Invoice INNER JOIN Customer ON Customer.CustomerId = Invoice.CustomerId GROUP BY Invoice.CustomerId ORDER BY SUM(Total) DESC LIMIT 10;

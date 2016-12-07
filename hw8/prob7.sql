@@ -1,0 +1,1 @@
+select Artist.Name AS Artist_NAME,COUNT(*) AS NUMBER_OF_TRACK,SUM(Milliseconds)/1000/60 AS DURATION_IN_MINUTES from Artist INNER JOIN Album ON Album.ArtistId = Artist.ArtistId INNER JOIN Track ON Track.AlbumId = Album.AlbumId GROUP BY Artist.ArtistId ORDER BY COUNT(*) DESC LIMIT 10;
