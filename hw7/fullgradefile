@@ -1,0 +1,19 @@
+
+
+################ STUDENT IS: wk7b_repos_for_grade/terrylll ###############
+2		1. data_server Handshake
+
+1		2. data_server Puts
+
+0		3. data_server All 3 Gets
+
+0		4. save_cpu Client Program Connects and Handshakes
+
+0		5. save_cpu Client Program Puts Cpu Load
+
+0		6. save_cpu Client Tests All 3 Gets
+
+
+###########################
+
+TOTAL SCORE = 3/12
