@@ -1,20 +1,21 @@
-The code is reimplement the EE590 Homework3 problems with using Rust. Complex
+The code is reimplement the EE590 Homework3 problems with using Rust. <\n> Complex
 number, Fraction, and Matrix methods are included in the files.
+First, Run "cargo build" in GIT Bash command to make sure the model is already built.
 
 ## Fraction
 This section is used for testing Fraction in integer.
 The tests can be run by using "cargo test" in GIT Bash command.
 to_string() method is implemented to display several answers. It can be
 displayed by using "cargo run" in GIT Bash command.
-There are several tests:
-1. Create new fractions and can be displayed fraction form.
-   Fraction::new(3,8) --> "3/8"
-   Fraction::new(2,4) --> "1/2"
-2. Add(+): Fraction::new(2,4) + Fraction::new(3,8) --> "7/4"
-3. Sub(-): Fraction::new(2,4) - Fraction::new(7,3) --> "-11/6"
-4. Mul (* ):  Fraction::new(2,4) * Fraction::new(7,3) --> "7/6"
-5. Div(/): Fraction::new(2,4) / Fraction::new(7,3) --> "3/14"
-6. power (powf()): Fraction::new(3,4).powf(3)) --> "27/64"
+There are several tests:</n> 
+1. Create new fractions and can be displayed fraction form.</n> 
+   Fraction::new(3,8) --> "3/8"</n> 
+   Fraction::new(2,4) --> "1/2"</n> 
+2. Add(+): Fraction::new(2,4) + Fraction::new(3,8) --> "7/4"</n> 
+3. Sub(-): Fraction::new(2,4) - Fraction::new(7,3) --> "-11/6"</n> 
+4. Mul (* ):  Fraction::new(2,4) * Fraction::new(7,3) --> "7/6"</n> 
+5. Div(/): Fraction::new(2,4) / Fraction::new(7,3) --> "3/14"</n> 
+6. power (powf()): Fraction::new(3,4).powf(3)) --> "27/64"</n> 
 
 
 ## Complex
