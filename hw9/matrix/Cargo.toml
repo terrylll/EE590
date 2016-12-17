@@ -1,0 +1,9 @@
+[package]
+name = "matrix"
+version = "0.1.0"
+authors = ["terrylam <terrylam9012@gmail.com>"]
+
+[dependencies]
+num = "*"
+num-complex = "*"
+nalgebra = "*"
