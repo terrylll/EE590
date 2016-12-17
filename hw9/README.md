@@ -1,6 +1,8 @@
-The code is reimplement the EE590 Homework3 problems with using Rust. <\n> Complex
-number, Fraction, and Matrix methods are included in the files.
-First, Run "cargo build" in GIT Bash command to make sure the model is already built.
+The code is reimplement the EE590 Homework3 problems with using Rust. </n> 
+Complexcnumber, Fraction, and Matrix methods are included in the files. </n> 
+There are three floders: Complex, Fraction, and Matrix. </n> 
+First, cd "the testing folder". E.g. cd complex, cd fraction... </n> 
+Then, Run "cargo build" in GIT Bash command to make sure the model is already built. </n> 
 
 ## Fraction
 This section is used for testing Fraction in integer.
